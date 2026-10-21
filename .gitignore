@@ -1,0 +1,35 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Datos crudos y bases locales
+data/raw/*
+!data/raw/.gitkeep
+*.sqlite3
+*.db
+qdrant_storage/
+chroma/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node (frontend futuro)
+node_modules/
